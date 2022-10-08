@@ -1,3 +1,5 @@
+import Chart from '../../components/Chart/Chart';
+import Featured from '../../components/Featured/Featured';
 import NavBar from '../../components/NavBar/NavBar';
 import SideBar from '../../components/SideBar/SideBar';
 import Widget from '../../components/Widget/Widget';
@@ -14,7 +16,11 @@ const Home = () => {
           <Widget type="earning"/>
           <Widget type="balance"/>
         </div>
-          </div>
+        <div className='charts'>
+          <Featured />
+          <Chart/>
+        </div>
+        </div>
     </div>
   )
 }
