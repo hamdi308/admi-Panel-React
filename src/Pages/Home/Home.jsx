@@ -19,7 +19,7 @@ const Home = () => {
         </div>
         <div className='charts'>
           <Featured />
-          <Chart/>
+          <Chart />
         </div>
          <div className='listContainer'>
           <div className='listTitle'>Latest Transactions</div>
